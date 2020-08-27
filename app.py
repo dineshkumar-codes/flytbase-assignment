@@ -7,7 +7,7 @@ time.sleep(3)
 print 'taking off'
 drone.take_off(5.0)
 
-print ' going along the setpoints'
+print 'starting mission'
 drone.position_set(6.5,0,0,relative=True)
 drone.position_set(0,6.5,0,relative=True)
 drone.position_set(-6.5,0,0,relative=True)
