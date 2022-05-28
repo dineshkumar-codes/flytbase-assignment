@@ -1,3 +1,5 @@
 # quadapp
 
-This code makes the drone to take off 5 m, moves in a square trajectory (side length 6.5 m) and lands 
+This project is developed using FlytBase platform 
+
+executing this script will make the drone to take off 5 m, move in a square trajectory (side length 6.5 m) and finally land
