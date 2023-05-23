@@ -9,8 +9,11 @@ drone.take_off(5.0)
 
 print 'starting mission'
 drone.position_set(6.5,0,0,relative=True)
+time.sleep(2)
 drone.position_set(0,6.5,0,relative=True)
+time.sleep(2)
 drone.position_set(-6.5,0,0,relative=True)
+time.sleep(2)
 drone.position_set(0,-6.5,0,relative=True)
 
 print 'Landing'
