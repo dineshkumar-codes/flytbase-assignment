@@ -19,9 +19,9 @@ Before running the application, ensure that you have the following:
    docker cp triangle.py flytsim:/flyt/flytapps/
    ```
 
-4. Now, get terminal access to FlytSim Docker by executing the openshell.sh script.
+4. Now, get terminal access to FlytSim Docker by executing the `openshell.sh` script.
 
-5. Once you are inside the FlytSim Docker, navigate to the flytapps directory and provide executable permissions for the Python scripts:
+5. Once you are inside the FlytSim Docker, navigate to the `flytapps` directory and provide executable permissions for the Python scripts:
     ```shell
     chmod +x square.py
     chmod +x triangle.py
