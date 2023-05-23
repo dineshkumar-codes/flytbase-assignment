@@ -38,14 +38,5 @@ If you wish to customize the application or add additional features, you can mod
 - Implement other types of trajectories, such as circles or polygons.
 - Integrate additional commands or behaviors for the drone during the trajectory.
 
-## Contributing
-If you'd like to contribute to this project, you can follow these steps:
-- Fork the repository on GitHub.
-- Create a new branch with a descriptive name for your feature or bug fix.
-- Make the necessary changes in your branch.
-- Commit your changes with clear and concise commit messages.
-- Push your branch to your forked repository.
-- Submit a pull request detailing your changes and describing their purpose.
-
 ## Disclaimer
 Please note that operating a drone requires expertise and adherence to local regulations. Ensure that you have the necessary knowledge and permissions to operate a drone safely and legally in your area. The authors of this repository are not responsible for any misuse or illegal activities involving drones.
