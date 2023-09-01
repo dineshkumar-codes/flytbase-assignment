@@ -1,6 +1,6 @@
 # FlytBase Assignment: Square and Triangle Trajectory
 
-This repository contains Python applications that control a drone to follow square and triangle trajectories. The applications/python script utilize the FlytBase platform to interface with the drone and send commands for navigation.
+This repository contains Python applications that control a drone to follow square and triangle trajectories. The applications/python script utilizes the FlytBase platform to interface with the drone and send commands for navigation.
 
 ## Prerequisites
 Before running the application, ensure that you have the following:
@@ -10,23 +10,22 @@ Before running the application, ensure that you have the following:
 
 ## Installation
 1. Clone this repository to your local machine or download the source code as a ZIP file and extract it.
-
-2. Make sure FlytSim is up and running (Refer to this setup [guide](https://docs.flytbase.com/flytsim/flytsim-docker/setup)).
-
-3. Open a terminal inside the downloaded folder and run the following commands to copy the Python apps to the FlytSim docker container:
+2. Setup FlytSim by following this [guide](https://github.com/flytbase/flytdocs/blob/master/flytsim/flytsim-docker/setup.md).
+3. Activate the license (Refer to this [instructions](https://github.com/flytbase/flytdocs/blob/master/flytsim/flytsim-docker/activation.md)).
+4. Open a terminal inside the downloaded folder and run the following commands to copy the Python apps to the FlytSim docker container:
    ```shell
    docker cp square.py flytsim:/flyt/flytapps/
    docker cp triangle.py flytsim:/flyt/flytapps/
    ```
 
-4. Now, get terminal access to FlytSim Docker by executing the `openshell.sh` script.
+5. Now, get terminal access to FlytSim Docker by executing the `openshell.sh` script.
 
-5. Once you are inside the FlytSim Docker, navigate to the `flytapps` directory and provide executable permissions for the Python scripts:
+6. Once you are inside the FlytSim Docker, navigate to the `flytapps` directory and provide executable permissions for the Python scripts:
     ```shell
     chmod +x square.py
     chmod +x triangle.py
     ```   
-6. Now run the following command to execute the Python script:
+7. Now run the following command to execute the Python script:
     ```shell
     python square.py
     python triangle.py
