@@ -36,6 +36,3 @@ If you wish to customize the application or add additional features, you can mod
 - Adjust the side length or altitude values for the square or triangle trajectory.
 - Implement other types of trajectories, such as circles or polygons.
 - Integrate additional commands or behaviors for the drone during the trajectory.
-
-## Disclaimer
-Please note that operating a drone requires expertise and adherence to local regulations. Ensure that you have the necessary knowledge and permissions to operate a drone safely and legally in your area. The authors of this repository are not responsible for any misuse or illegal activities involving drones.
